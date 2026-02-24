@@ -1,0 +1,54 @@
+// src/features/auth/apis.ts
+import type { ApiEnvelope } from '@/types/api-envelope';
+import type {
+  AuthUser,
+  LoginPayload,
+  LoginResponseData,
+  SignupPayload,
+  SignupResponseData,
+} from './types';
+import { getAccessToken } from '@/lib/auth-token-storage';
+
+const BASE_URL = `${import.meta.env.VITE_BASE_API_URL}`;
+
+export async function signupServer(payload: SignupPayload) {
+  const response = await fetch(`${BASE_URL}/api/auth/signup`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(payload),
+  });
+  return (await response.json()) as ApiEnvelope<SignupResponseData>;
+}
+
+export async function loginServer(payload: LoginPayload) {
+  const response = await fetch(`${BASE_URL}/api/auth/login`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(payload),
+  });
+  return (await response.json()) as ApiEnvelope<LoginResponseData>;
+}
+
+export async function logoutServer() {
+  const response = await fetch(`${BASE_URL}/api/auth/logout`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  });
+  return (await response.json()) as ApiEnvelope<{ message: string }>;
+}
+
+export async function fetchMe() {
+  const accessToken = getAccessToken();
+  const response = await fetch(`${BASE_URL}/api/auth/me`, {
+    headers: {
+      Authorization: `Bearer ${accessToken}`,
+    },
+  });
+  return (await response.json()) as ApiEnvelope<{ user: AuthUser }>;
+}

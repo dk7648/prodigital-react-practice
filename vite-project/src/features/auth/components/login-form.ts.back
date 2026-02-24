@@ -1,0 +1,97 @@
+import { cn } from '@/lib/utils';
+import { Button } from '@/components/ui/button';
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from '@/components/ui/card';
+import {
+  Field,
+  FieldDescription,
+  FieldGroup,
+  FieldLabel,
+} from '@/components/ui/field';
+import { Input } from '@/components/ui/input';
+import { useState, type ChangeEvent } from 'react';
+import type { LoginPayload } from './types';
+import { useAuth } from './hooks';
+import { useNavigate } from 'react-router';
+import { toast } from 'sonner';
+
+export function LoginForm() {
+  const { login, user } = useAuth();
+  const navigate = useNavigate();
+  const [formInput, setFormInput] = useState<LoginPayload>({
+    email: '',
+    password: '',
+  });
+
+  const onInputChange = (e: ChangeEvent<HTMLInputElement>) => {
+    setFormInput(prev => {
+      return {
+        ...prev,
+        [e.target.name]: e.target.value,
+      };
+    });
+  };
+
+  const onSubmit = async (e: React.SubmitEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const result = await login(formInput);
+    if (result.success) {
+      toast(`${result.data.user.nickname}님 환영합니다.`);
+      navigate('/');
+    } else {
+      toast.error(`${result.error.message}`);
+    }
+  };
+  return (
+    <div>
+      <Card>
+        <CardHeader>
+          <CardTitle>Login to your account</CardTitle>
+          <CardDescription>
+            Enter your email below to login to your account
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <form onSubmit={onSubmit}>
+            <FieldGroup>
+              <Field>
+                <FieldLabel htmlFor="email">이메일</FieldLabel>
+                <Input
+                  id="email"
+                  type="email"
+                  placeholder="m@example.com"
+                  name="email"
+                  value={formInput.email}
+                  onChange={onInputChange}
+                  required
+                />
+              </Field>
+              <Field>
+                <FieldLabel htmlFor="password">비밀번호</FieldLabel>
+                <Input
+                  id="password"
+                  type="password"
+                  name="password"
+                  value={formInput.password}
+                  onChange={onInputChange}
+                  required
+                />
+              </Field>
+              <Field>
+                <Button type="submit">Login</Button>
+                <Button variant="outline" type="button">
+                  Login with Google
+                </Button>
+              </Field>
+            </FieldGroup>
+          </form>
+        </CardContent>
+      </Card>
+    </div>
+  );
+}
