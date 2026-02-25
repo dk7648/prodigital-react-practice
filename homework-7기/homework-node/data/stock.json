@@ -1,0 +1,2402 @@
+[
+  {
+    "date": "2024-11-28",
+    "tradePrice": 161100,
+    "openingPrice": 164600,
+    "highPrice": 166300,
+    "lowPrice": 160800,
+    "candleAccTradePrice": 897474253900
+  },
+  {
+    "date": "2024-11-29",
+    "tradePrice": 159900,
+    "openingPrice": 160000,
+    "highPrice": 162400,
+    "lowPrice": 157600,
+    "candleAccTradePrice": 729165542600
+  },
+  {
+    "date": "2024-12-02",
+    "tradePrice": 158800,
+    "openingPrice": 162200,
+    "highPrice": 162700,
+    "lowPrice": 158600,
+    "candleAccTradePrice": 563121740600
+  },
+  {
+    "date": "2024-12-03",
+    "tradePrice": 164900,
+    "openingPrice": 159200,
+    "highPrice": 165100,
+    "lowPrice": 159100,
+    "candleAccTradePrice": 651155969800
+  },
+  {
+    "date": "2024-12-04",
+    "tradePrice": 168000,
+    "openingPrice": 161300,
+    "highPrice": 168000,
+    "lowPrice": 161100,
+    "candleAccTradePrice": 931256637100
+  },
+  {
+    "date": "2024-12-05",
+    "tradePrice": 173000,
+    "openingPrice": 170000,
+    "highPrice": 175600,
+    "lowPrice": 169300,
+    "candleAccTradePrice": 798152324600
+  },
+  {
+    "date": "2024-12-06",
+    "tradePrice": 167100,
+    "openingPrice": 173500,
+    "highPrice": 173600,
+    "lowPrice": 165000,
+    "candleAccTradePrice": 728902037000
+  },
+  {
+    "date": "2024-12-09",
+    "tradePrice": 168900,
+    "openingPrice": 167100,
+    "highPrice": 170600,
+    "lowPrice": 165000,
+    "candleAccTradePrice": 856048450800
+  },
+  {
+    "date": "2024-12-10",
+    "tradePrice": 170400,
+    "openingPrice": 168000,
+    "highPrice": 170400,
+    "lowPrice": 167600,
+    "candleAccTradePrice": 504598516400
+  },
+  {
+    "date": "2024-12-11",
+    "tradePrice": 171800,
+    "openingPrice": 167400,
+    "highPrice": 171800,
+    "lowPrice": 167000,
+    "candleAccTradePrice": 380998894300
+  },
+  {
+    "date": "2024-12-12",
+    "tradePrice": 176100,
+    "openingPrice": 176500,
+    "highPrice": 177400,
+    "lowPrice": 173500,
+    "candleAccTradePrice": 759068737900
+  },
+  {
+    "date": "2024-12-13",
+    "tradePrice": 175500,
+    "openingPrice": 174400,
+    "highPrice": 176400,
+    "lowPrice": 173500,
+    "candleAccTradePrice": 624683317000
+  },
+  {
+    "date": "2024-12-16",
+    "tradePrice": 179300,
+    "openingPrice": 177400,
+    "highPrice": 180400,
+    "lowPrice": 177300,
+    "candleAccTradePrice": 580292614200
+  },
+  {
+    "date": "2024-12-17",
+    "tradePrice": 184000,
+    "openingPrice": 183000,
+    "highPrice": 184500,
+    "lowPrice": 182100,
+    "candleAccTradePrice": 572464362300
+  },
+  {
+    "date": "2024-12-18",
+    "tradePrice": 183500,
+    "openingPrice": 183400,
+    "highPrice": 183900,
+    "lowPrice": 181600,
+    "candleAccTradePrice": 429243244300
+  },
+  {
+    "date": "2024-12-19",
+    "tradePrice": 175000,
+    "openingPrice": 173900,
+    "highPrice": 176800,
+    "lowPrice": 173000,
+    "candleAccTradePrice": 829092134800
+  },
+  {
+    "date": "2024-12-20",
+    "tradePrice": 168500,
+    "openingPrice": 174100,
+    "highPrice": 174800,
+    "lowPrice": 167100,
+    "candleAccTradePrice": 742015606700
+  },
+  {
+    "date": "2024-12-23",
+    "tradePrice": 169600,
+    "openingPrice": 170000,
+    "highPrice": 173300,
+    "lowPrice": 169600,
+    "candleAccTradePrice": 524411984600
+  },
+  {
+    "date": "2024-12-24",
+    "tradePrice": 168500,
+    "openingPrice": 171700,
+    "highPrice": 171900,
+    "lowPrice": 168300,
+    "candleAccTradePrice": 304964212200
+  },
+  {
+    "date": "2024-12-26",
+    "tradePrice": 170100,
+    "openingPrice": 170000,
+    "highPrice": 172000,
+    "lowPrice": 169400,
+    "candleAccTradePrice": 340775401800
+  },
+  {
+    "date": "2024-12-27",
+    "tradePrice": 174500,
+    "openingPrice": 170100,
+    "highPrice": 176000,
+    "lowPrice": 170000,
+    "candleAccTradePrice": 455681940300
+  },
+  {
+    "date": "2024-12-30",
+    "tradePrice": 173900,
+    "openingPrice": 174000,
+    "highPrice": 175800,
+    "lowPrice": 172400,
+    "candleAccTradePrice": 245728140300
+  },
+  {
+    "date": "2025-01-02",
+    "tradePrice": 171200,
+    "openingPrice": 170500,
+    "highPrice": 172200,
+    "lowPrice": 170000,
+    "candleAccTradePrice": 353590160000
+  },
+  {
+    "date": "2025-01-03",
+    "tradePrice": 181900,
+    "openingPrice": 174500,
+    "highPrice": 182700,
+    "lowPrice": 173100,
+    "candleAccTradePrice": 755914098000
+  },
+  {
+    "date": "2025-01-06",
+    "tradePrice": 199800,
+    "openingPrice": 184400,
+    "highPrice": 199800,
+    "lowPrice": 184400,
+    "candleAccTradePrice": 1400870631100
+  },
+  {
+    "date": "2025-01-07",
+    "tradePrice": 195000,
+    "openingPrice": 205000,
+    "highPrice": 206500,
+    "lowPrice": 194800,
+    "candleAccTradePrice": 1194957822000
+  },
+  {
+    "date": "2025-01-08",
+    "tradePrice": 194700,
+    "openingPrice": 193100,
+    "highPrice": 198100,
+    "lowPrice": 191000,
+    "candleAccTradePrice": 822647675500
+  },
+  {
+    "date": "2025-01-09",
+    "tradePrice": 205000,
+    "openingPrice": 201000,
+    "highPrice": 206000,
+    "lowPrice": 199800,
+    "candleAccTradePrice": 1352078161800
+  },
+  {
+    "date": "2025-01-10",
+    "tradePrice": 203500,
+    "openingPrice": 208000,
+    "highPrice": 212500,
+    "lowPrice": 202500,
+    "candleAccTradePrice": 1231055481000
+  },
+  {
+    "date": "2025-01-13",
+    "tradePrice": 194300,
+    "openingPrice": 203000,
+    "highPrice": 203000,
+    "lowPrice": 193900,
+    "candleAccTradePrice": 914236556500
+  },
+  {
+    "date": "2025-01-14",
+    "tradePrice": 195000,
+    "openingPrice": 194300,
+    "highPrice": 197900,
+    "lowPrice": 193600,
+    "candleAccTradePrice": 533764386700
+  },
+  {
+    "date": "2025-01-15",
+    "tradePrice": 198200,
+    "openingPrice": 198000,
+    "highPrice": 201000,
+    "lowPrice": 197700,
+    "candleAccTradePrice": 698404747100
+  },
+  {
+    "date": "2025-01-16",
+    "tradePrice": 210000,
+    "openingPrice": 208500,
+    "highPrice": 210000,
+    "lowPrice": 206500,
+    "candleAccTradePrice": 1111829555000
+  },
+  {
+    "date": "2025-01-17",
+    "tradePrice": 214500,
+    "openingPrice": 209500,
+    "highPrice": 217500,
+    "lowPrice": 209000,
+    "candleAccTradePrice": 1071695757000
+  },
+  {
+    "date": "2025-01-20",
+    "tradePrice": 212000,
+    "openingPrice": 219000,
+    "highPrice": 219000,
+    "lowPrice": 210500,
+    "candleAccTradePrice": 630702668000
+  },
+  {
+    "date": "2025-01-21",
+    "tradePrice": 218000,
+    "openingPrice": 216500,
+    "highPrice": 220000,
+    "lowPrice": 214000,
+    "candleAccTradePrice": 664873623500
+  },
+  {
+    "date": "2025-01-22",
+    "tradePrice": 225500,
+    "openingPrice": 221500,
+    "highPrice": 227000,
+    "lowPrice": 217000,
+    "candleAccTradePrice": 1254918658500
+  },
+  {
+    "date": "2025-01-23",
+    "tradePrice": 219500,
+    "openingPrice": 221000,
+    "highPrice": 225500,
+    "lowPrice": 215000,
+    "candleAccTradePrice": 1311279696000
+  },
+  {
+    "date": "2025-01-24",
+    "tradePrice": 221000,
+    "openingPrice": 220500,
+    "highPrice": 227000,
+    "lowPrice": 217500,
+    "candleAccTradePrice": 801318461500
+  },
+  {
+    "date": "2025-01-31",
+    "tradePrice": 199200,
+    "openingPrice": 197000,
+    "highPrice": 204500,
+    "lowPrice": 194800,
+    "candleAccTradePrice": 2348685422400
+  },
+  {
+    "date": "2025-02-03",
+    "tradePrice": 190900,
+    "openingPrice": 191500,
+    "highPrice": 193200,
+    "lowPrice": 186900,
+    "candleAccTradePrice": 1456693069400
+  },
+  {
+    "date": "2025-02-04",
+    "tradePrice": 191100,
+    "openingPrice": 192900,
+    "highPrice": 194300,
+    "lowPrice": 190100,
+    "candleAccTradePrice": 1091772559600
+  },
+  {
+    "date": "2025-02-05",
+    "tradePrice": 198800,
+    "openingPrice": 191900,
+    "highPrice": 199400,
+    "lowPrice": 191900,
+    "candleAccTradePrice": 791642652500
+  },
+  {
+    "date": "2025-02-06",
+    "tradePrice": 203500,
+    "openingPrice": 202000,
+    "highPrice": 205000,
+    "lowPrice": 200500,
+    "candleAccTradePrice": 812759343500
+  },
+  {
+    "date": "2025-02-07",
+    "tradePrice": 203000,
+    "openingPrice": 205000,
+    "highPrice": 206000,
+    "lowPrice": 200500,
+    "candleAccTradePrice": 439296537500
+  },
+  {
+    "date": "2025-02-10",
+    "tradePrice": 198100,
+    "openingPrice": 197800,
+    "highPrice": 203000,
+    "lowPrice": 197000,
+    "candleAccTradePrice": 547848711000
+  },
+  {
+    "date": "2025-02-11",
+    "tradePrice": 199700,
+    "openingPrice": 201000,
+    "highPrice": 201500,
+    "lowPrice": 198000,
+    "candleAccTradePrice": 489430529800
+  },
+  {
+    "date": "2025-02-12",
+    "tradePrice": 198900,
+    "openingPrice": 196500,
+    "highPrice": 199900,
+    "lowPrice": 196000,
+    "candleAccTradePrice": 567836625100
+  },
+  {
+    "date": "2025-02-13",
+    "tradePrice": 208500,
+    "openingPrice": 198800,
+    "highPrice": 208500,
+    "lowPrice": 198100,
+    "candleAccTradePrice": 708214555300
+  },
+  {
+    "date": "2025-02-14",
+    "tradePrice": 210000,
+    "openingPrice": 209000,
+    "highPrice": 212000,
+    "lowPrice": 206500,
+    "candleAccTradePrice": 540659181500
+  },
+  {
+    "date": "2025-02-17",
+    "tradePrice": 212000,
+    "openingPrice": 211500,
+    "highPrice": 216000,
+    "lowPrice": 211000,
+    "candleAccTradePrice": 529914505500
+  },
+  {
+    "date": "2025-02-18",
+    "tradePrice": 210000,
+    "openingPrice": 212000,
+    "highPrice": 215000,
+    "lowPrice": 207000,
+    "candleAccTradePrice": 402111601000
+  },
+  {
+    "date": "2025-02-19",
+    "tradePrice": 218500,
+    "openingPrice": 216000,
+    "highPrice": 219500,
+    "lowPrice": 214000,
+    "candleAccTradePrice": 745509739500
+  },
+  {
+    "date": "2025-02-20",
+    "tradePrice": 212000,
+    "openingPrice": 217000,
+    "highPrice": 218500,
+    "lowPrice": 211000,
+    "candleAccTradePrice": 656887125500
+  },
+  {
+    "date": "2025-02-21",
+    "tradePrice": 209500,
+    "openingPrice": 209500,
+    "highPrice": 211000,
+    "lowPrice": 205500,
+    "candleAccTradePrice": 533451693000
+  },
+  {
+    "date": "2025-02-24",
+    "tradePrice": 205000,
+    "openingPrice": 202500,
+    "highPrice": 205000,
+    "lowPrice": 201000,
+    "candleAccTradePrice": 618469332500
+  },
+  {
+    "date": "2025-02-25",
+    "tradePrice": 200500,
+    "openingPrice": 199800,
+    "highPrice": 202000,
+    "lowPrice": 199200,
+    "candleAccTradePrice": 688934513400
+  },
+  {
+    "date": "2025-02-26",
+    "tradePrice": 203000,
+    "openingPrice": 199000,
+    "highPrice": 206000,
+    "lowPrice": 198600,
+    "candleAccTradePrice": 762204507800
+  },
+  {
+    "date": "2025-02-27",
+    "tradePrice": 199200,
+    "openingPrice": 204500,
+    "highPrice": 205000,
+    "lowPrice": 198100,
+    "candleAccTradePrice": 756509292600
+  },
+  {
+    "date": "2025-02-28",
+    "tradePrice": 190200,
+    "openingPrice": 191600,
+    "highPrice": 193000,
+    "lowPrice": 188700,
+    "candleAccTradePrice": 1020759710100
+  },
+  {
+    "date": "2025-03-04",
+    "tradePrice": 186100,
+    "openingPrice": 184800,
+    "highPrice": 187500,
+    "lowPrice": 184000,
+    "candleAccTradePrice": 965160752400
+  },
+  {
+    "date": "2025-03-05",
+    "tradePrice": 193100,
+    "openingPrice": 188200,
+    "highPrice": 194400,
+    "lowPrice": 186600,
+    "candleAccTradePrice": 765815115950
+  },
+  {
+    "date": "2025-03-06",
+    "tradePrice": 192400,
+    "openingPrice": 193500,
+    "highPrice": 194000,
+    "lowPrice": 190300,
+    "candleAccTradePrice": 482714369150
+  },
+  {
+    "date": "2025-03-07",
+    "tradePrice": 192400,
+    "openingPrice": 191000,
+    "highPrice": 192800,
+    "lowPrice": 187900,
+    "candleAccTradePrice": 496405280850
+  },
+  {
+    "date": "2025-03-10",
+    "tradePrice": 187900,
+    "openingPrice": 187500,
+    "highPrice": 191500,
+    "lowPrice": 187300,
+    "candleAccTradePrice": 454523032900
+  },
+  {
+    "date": "2025-03-11",
+    "tradePrice": 187800,
+    "openingPrice": 182100,
+    "highPrice": 189000,
+    "lowPrice": 181300,
+    "candleAccTradePrice": 642590903550
+  },
+  {
+    "date": "2025-03-12",
+    "tradePrice": 198900,
+    "openingPrice": 192400,
+    "highPrice": 199350,
+    "lowPrice": 189700,
+    "candleAccTradePrice": 788806361200
+  },
+  {
+    "date": "2025-03-13",
+    "tradePrice": 199700,
+    "openingPrice": 202500,
+    "highPrice": 204500,
+    "lowPrice": 195500,
+    "candleAccTradePrice": 772070452100
+  },
+  {
+    "date": "2025-03-14",
+    "tradePrice": 204500,
+    "openingPrice": 198500,
+    "highPrice": 206000,
+    "lowPrice": 198500,
+    "candleAccTradePrice": 686266189600
+  },
+  {
+    "date": "2025-03-17",
+    "tradePrice": 206000,
+    "openingPrice": 207000,
+    "highPrice": 209500,
+    "lowPrice": 203500,
+    "candleAccTradePrice": 528030700000
+  },
+  {
+    "date": "2025-03-18",
+    "tradePrice": 203000,
+    "openingPrice": 208500,
+    "highPrice": 209000,
+    "lowPrice": 201000,
+    "candleAccTradePrice": 545424715250
+  },
+  {
+    "date": "2025-03-19",
+    "tradePrice": 205500,
+    "openingPrice": 202000,
+    "highPrice": 209500,
+    "lowPrice": 201000,
+    "candleAccTradePrice": 631227272000
+  },
+  {
+    "date": "2025-03-20",
+    "tradePrice": 210000,
+    "openingPrice": 207000,
+    "highPrice": 211000,
+    "lowPrice": 205500,
+    "candleAccTradePrice": 574476933250
+  },
+  {
+    "date": "2025-03-21",
+    "tradePrice": 215500,
+    "openingPrice": 213500,
+    "highPrice": 219500,
+    "lowPrice": 212000,
+    "candleAccTradePrice": 1217128376750
+  },
+  {
+    "date": "2025-03-24",
+    "tradePrice": 211500,
+    "openingPrice": 211500,
+    "highPrice": 214500,
+    "lowPrice": 209500,
+    "candleAccTradePrice": 341505060250
+  },
+  {
+    "date": "2025-03-25",
+    "tradePrice": 208000,
+    "openingPrice": 214500,
+    "highPrice": 215500,
+    "lowPrice": 208000,
+    "candleAccTradePrice": 443201620000
+  },
+  {
+    "date": "2025-03-26",
+    "tradePrice": 214000,
+    "openingPrice": 209000,
+    "highPrice": 215500,
+    "lowPrice": 208500,
+    "candleAccTradePrice": 415913898500
+  },
+  {
+    "date": "2025-03-27",
+    "tradePrice": 207000,
+    "openingPrice": 208000,
+    "highPrice": 212000,
+    "lowPrice": 206500,
+    "candleAccTradePrice": 471016295500
+  },
+  {
+    "date": "2025-03-28",
+    "tradePrice": 199300,
+    "openingPrice": 203000,
+    "highPrice": 204500,
+    "lowPrice": 198900,
+    "candleAccTradePrice": 531268237200
+  },
+  {
+    "date": "2025-03-31",
+    "tradePrice": 190700,
+    "openingPrice": 193500,
+    "highPrice": 195500,
+    "lowPrice": 190500,
+    "candleAccTradePrice": 754987102800
+  },
+  {
+    "date": "2025-04-01",
+    "tradePrice": 197000,
+    "openingPrice": 193600,
+    "highPrice": 198500,
+    "lowPrice": 192000,
+    "candleAccTradePrice": 444665842350
+  },
+  {
+    "date": "2025-04-02",
+    "tradePrice": 197900,
+    "openingPrice": 198800,
+    "highPrice": 201500,
+    "lowPrice": 197300,
+    "candleAccTradePrice": 540790226500
+  },
+  {
+    "date": "2025-04-03",
+    "tradePrice": 194600,
+    "openingPrice": 189600,
+    "highPrice": 194600,
+    "lowPrice": 188200,
+    "candleAccTradePrice": 798363142800
+  },
+  {
+    "date": "2025-04-04",
+    "tradePrice": 182200,
+    "openingPrice": 187900,
+    "highPrice": 189600,
+    "lowPrice": 178400,
+    "candleAccTradePrice": 1683651158300
+  },
+  {
+    "date": "2025-04-07",
+    "tradePrice": 164800,
+    "openingPrice": 168000,
+    "highPrice": 172800,
+    "lowPrice": 164800,
+    "candleAccTradePrice": 1322052524400
+  },
+  {
+    "date": "2025-04-08",
+    "tradePrice": 169500,
+    "openingPrice": 172000,
+    "highPrice": 173100,
+    "lowPrice": 168200,
+    "candleAccTradePrice": 844810836000
+  },
+  {
+    "date": "2025-04-09",
+    "tradePrice": 165000,
+    "openingPrice": 170000,
+    "highPrice": 170000,
+    "lowPrice": 162700,
+    "candleAccTradePrice": 978151078850
+  },
+  {
+    "date": "2025-04-10",
+    "tradePrice": 183200,
+    "openingPrice": 189700,
+    "highPrice": 189900,
+    "lowPrice": 180000,
+    "candleAccTradePrice": 1440637049800
+  },
+  {
+    "date": "2025-04-11",
+    "tradePrice": 180800,
+    "openingPrice": 177800,
+    "highPrice": 181800,
+    "lowPrice": 176100,
+    "candleAccTradePrice": 573308208800
+  },
+  {
+    "date": "2025-04-14",
+    "tradePrice": 180200,
+    "openingPrice": 182900,
+    "highPrice": 184400,
+    "lowPrice": 178000,
+    "candleAccTradePrice": 623221020050
+  },
+  {
+    "date": "2025-04-15",
+    "tradePrice": 180600,
+    "openingPrice": 180200,
+    "highPrice": 182400,
+    "lowPrice": 179700,
+    "candleAccTradePrice": 341779327300
+  },
+  {
+    "date": "2025-04-16",
+    "tradePrice": 174000,
+    "openingPrice": 176500,
+    "highPrice": 177500,
+    "lowPrice": 173500,
+    "candleAccTradePrice": 513098898300
+  },
+  {
+    "date": "2025-04-17",
+    "tradePrice": 175000,
+    "openingPrice": 172100,
+    "highPrice": 175400,
+    "lowPrice": 171800,
+    "candleAccTradePrice": 518395037000
+  },
+  {
+    "date": "2025-04-18",
+    "tradePrice": 175000,
+    "openingPrice": 174000,
+    "highPrice": 175500,
+    "lowPrice": 172800,
+    "candleAccTradePrice": 227107839950
+  },
+  {
+    "date": "2025-04-21",
+    "tradePrice": 176600,
+    "openingPrice": 174800,
+    "highPrice": 180000,
+    "lowPrice": 174500,
+    "candleAccTradePrice": 322680546800
+  },
+  {
+    "date": "2025-04-22",
+    "tradePrice": 173800,
+    "openingPrice": 175000,
+    "highPrice": 175500,
+    "lowPrice": 173300,
+    "candleAccTradePrice": 349067847200
+  },
+  {
+    "date": "2025-04-23",
+    "tradePrice": 181000,
+    "openingPrice": 179100,
+    "highPrice": 181600,
+    "lowPrice": 178100,
+    "candleAccTradePrice": 674080863950
+  },
+  {
+    "date": "2025-04-24",
+    "tradePrice": 178300,
+    "openingPrice": 182800,
+    "highPrice": 183400,
+    "lowPrice": 177600,
+    "candleAccTradePrice": 564929672500
+  },
+  {
+    "date": "2025-04-25",
+    "tradePrice": 184400,
+    "openingPrice": 182500,
+    "highPrice": 184900,
+    "lowPrice": 182100,
+    "candleAccTradePrice": 625817014450
+  },
+  {
+    "date": "2025-04-28",
+    "tradePrice": 182000,
+    "openingPrice": 183500,
+    "highPrice": 183900,
+    "lowPrice": 179700,
+    "candleAccTradePrice": 446253941350
+  },
+  {
+    "date": "2025-04-29",
+    "tradePrice": 180800,
+    "openingPrice": 182000,
+    "highPrice": 182900,
+    "lowPrice": 179100,
+    "candleAccTradePrice": 335264163350
+  },
+  {
+    "date": "2025-04-30",
+    "tradePrice": 177500,
+    "openingPrice": 179100,
+    "highPrice": 180000,
+    "lowPrice": 176700,
+    "candleAccTradePrice": 416402626150
+  },
+  {
+    "date": "2025-05-02",
+    "tradePrice": 186000,
+    "openingPrice": 179400,
+    "highPrice": 186200,
+    "lowPrice": 178400,
+    "candleAccTradePrice": 712836668750
+  },
+  {
+    "date": "2025-05-07",
+    "tradePrice": 190800,
+    "openingPrice": 187700,
+    "highPrice": 191500,
+    "lowPrice": 185900,
+    "candleAccTradePrice": 725547327950
+  },
+  {
+    "date": "2025-05-08",
+    "tradePrice": 190300,
+    "openingPrice": 196000,
+    "highPrice": 196000,
+    "lowPrice": 189400,
+    "candleAccTradePrice": 966900563700
+  },
+  {
+    "date": "2025-05-09",
+    "tradePrice": 190100,
+    "openingPrice": 192000,
+    "highPrice": 192800,
+    "lowPrice": 186800,
+    "candleAccTradePrice": 425960594400
+  },
+  {
+    "date": "2025-05-12",
+    "tradePrice": 195000,
+    "openingPrice": 193600,
+    "highPrice": 195200,
+    "lowPrice": 193500,
+    "candleAccTradePrice": 309161521000
+  },
+  {
+    "date": "2025-05-13",
+    "tradePrice": 198500,
+    "openingPrice": 200500,
+    "highPrice": 201500,
+    "lowPrice": 197300,
+    "candleAccTradePrice": 625703858450
+  },
+  {
+    "date": "2025-05-14",
+    "tradePrice": 206000,
+    "openingPrice": 207000,
+    "highPrice": 207000,
+    "lowPrice": 204000,
+    "candleAccTradePrice": 624516800000
+  },
+  {
+    "date": "2025-05-15",
+    "tradePrice": 200500,
+    "openingPrice": 207500,
+    "highPrice": 208000,
+    "lowPrice": 199500,
+    "candleAccTradePrice": 640808437100
+  },
+  {
+    "date": "2025-05-16",
+    "tradePrice": 204500,
+    "openingPrice": 206000,
+    "highPrice": 206750,
+    "lowPrice": 203500,
+    "candleAccTradePrice": 475836581500
+  },
+  {
+    "date": "2025-05-19",
+    "tradePrice": 199400,
+    "openingPrice": 203000,
+    "highPrice": 203000,
+    "lowPrice": 197500,
+    "candleAccTradePrice": 486598881550
+  },
+  {
+    "date": "2025-05-20",
+    "tradePrice": 202000,
+    "openingPrice": 202500,
+    "highPrice": 208000,
+    "lowPrice": 201500,
+    "candleAccTradePrice": 549980180000
+  },
+  {
+    "date": "2025-05-21",
+    "tradePrice": 200500,
+    "openingPrice": 204500,
+    "highPrice": 205000,
+    "lowPrice": 199900,
+    "candleAccTradePrice": 342397941500
+  },
+  {
+    "date": "2025-05-22",
+    "tradePrice": 196900,
+    "openingPrice": 199900,
+    "highPrice": 201500,
+    "lowPrice": 196500,
+    "candleAccTradePrice": 392912748600
+  },
+  {
+    "date": "2025-05-23",
+    "tradePrice": 200000,
+    "openingPrice": 199900,
+    "highPrice": 201500,
+    "lowPrice": 198700,
+    "candleAccTradePrice": 286392469400
+  },
+  {
+    "date": "2025-05-26",
+    "tradePrice": 203000,
+    "openingPrice": 200000,
+    "highPrice": 203500,
+    "lowPrice": 196900,
+    "candleAccTradePrice": 292638598900
+  },
+  {
+    "date": "2025-05-27",
+    "tradePrice": 202500,
+    "openingPrice": 200500,
+    "highPrice": 203500,
+    "lowPrice": 200000,
+    "candleAccTradePrice": 287281999000
+  },
+  {
+    "date": "2025-05-28",
+    "tradePrice": 208000,
+    "openingPrice": 206500,
+    "highPrice": 209500,
+    "lowPrice": 206000,
+    "candleAccTradePrice": 614032422500
+  },
+  {
+    "date": "2025-05-29",
+    "tradePrice": 212000,
+    "openingPrice": 214500,
+    "highPrice": 214500,
+    "lowPrice": 207500,
+    "candleAccTradePrice": 801324532000
+  },
+  {
+    "date": "2025-05-30",
+    "tradePrice": 204500,
+    "openingPrice": 210000,
+    "highPrice": 210000,
+    "lowPrice": 203000,
+    "candleAccTradePrice": 836153008000
+  },
+  {
+    "date": "2025-06-02",
+    "tradePrice": 207500,
+    "openingPrice": 205000,
+    "highPrice": 208500,
+    "lowPrice": 203000,
+    "candleAccTradePrice": 353440628750
+  },
+  {
+    "date": "2025-06-04",
+    "tradePrice": 217500,
+    "openingPrice": 218000,
+    "highPrice": 223000,
+    "lowPrice": 216500,
+    "candleAccTradePrice": 1096428391250
+  },
+  {
+    "date": "2025-06-05",
+    "tradePrice": 224500,
+    "openingPrice": 225500,
+    "highPrice": 230000,
+    "lowPrice": 222000,
+    "candleAccTradePrice": 1080926506500
+  },
+  {
+    "date": "2025-06-09",
+    "tradePrice": 229000,
+    "openingPrice": 233000,
+    "highPrice": 233500,
+    "lowPrice": 228000,
+    "candleAccTradePrice": 693585845750
+  },
+  {
+    "date": "2025-06-10",
+    "tradePrice": 230500,
+    "openingPrice": 231000,
+    "highPrice": 232500,
+    "lowPrice": 227500,
+    "candleAccTradePrice": 741363584750
+  },
+  {
+    "date": "2025-06-11",
+    "tradePrice": 240000,
+    "openingPrice": 236000,
+    "highPrice": 241000,
+    "lowPrice": 235000,
+    "candleAccTradePrice": 981171043500
+  },
+  {
+    "date": "2025-06-12",
+    "tradePrice": 235500,
+    "openingPrice": 242500,
+    "highPrice": 246500,
+    "lowPrice": 235000,
+    "candleAccTradePrice": 1186172379250
+  },
+  {
+    "date": "2025-06-13",
+    "tradePrice": 235500,
+    "openingPrice": 240500,
+    "highPrice": 243000,
+    "lowPrice": 233750,
+    "candleAccTradePrice": 946362843500
+  },
+  {
+    "date": "2025-06-16",
+    "tradePrice": 248000,
+    "openingPrice": 238000,
+    "highPrice": 248500,
+    "lowPrice": 238000,
+    "candleAccTradePrice": 905815499250
+  },
+  {
+    "date": "2025-06-17",
+    "tradePrice": 249000,
+    "openingPrice": 253000,
+    "highPrice": 260000,
+    "lowPrice": 248000,
+    "candleAccTradePrice": 1253974648500
+  },
+  {
+    "date": "2025-06-18",
+    "tradePrice": 246500,
+    "openingPrice": 245500,
+    "highPrice": 252000,
+    "lowPrice": 245000,
+    "candleAccTradePrice": 900603693000
+  },
+  {
+    "date": "2025-06-19",
+    "tradePrice": 246000,
+    "openingPrice": 247000,
+    "highPrice": 250000,
+    "lowPrice": 242000,
+    "candleAccTradePrice": 552374997000
+  },
+  {
+    "date": "2025-06-20",
+    "tradePrice": 257000,
+    "openingPrice": 249000,
+    "highPrice": 257000,
+    "lowPrice": 247500,
+    "candleAccTradePrice": 903346074250
+  },
+  {
+    "date": "2025-06-23",
+    "tradePrice": 259500,
+    "openingPrice": 252500,
+    "highPrice": 263000,
+    "lowPrice": 248500,
+    "candleAccTradePrice": 849422045000
+  },
+  {
+    "date": "2025-06-24",
+    "tradePrice": 278500,
+    "openingPrice": 270000,
+    "highPrice": 283000,
+    "lowPrice": 269500,
+    "candleAccTradePrice": 1466539671000
+  },
+  {
+    "date": "2025-06-25",
+    "tradePrice": 286000,
+    "openingPrice": 289000,
+    "highPrice": 291500,
+    "lowPrice": 284000,
+    "candleAccTradePrice": 1472975496500
+  },
+  {
+    "date": "2025-06-26",
+    "tradePrice": 293000,
+    "openingPrice": 294500,
+    "highPrice": 298500,
+    "lowPrice": 287000,
+    "candleAccTradePrice": 1587609777000
+  },
+  {
+    "date": "2025-06-27",
+    "tradePrice": 284000,
+    "openingPrice": 288000,
+    "highPrice": 294500,
+    "lowPrice": 281000,
+    "candleAccTradePrice": 1425066393000
+  },
+  {
+    "date": "2025-06-30",
+    "tradePrice": 292000,
+    "openingPrice": 288500,
+    "highPrice": 294500,
+    "lowPrice": 286000,
+    "candleAccTradePrice": 1210024905250
+  },
+  {
+    "date": "2025-07-01",
+    "tradePrice": 285500,
+    "openingPrice": 291000,
+    "highPrice": 294500,
+    "lowPrice": 285500,
+    "candleAccTradePrice": 1024200253250
+  },
+  {
+    "date": "2025-07-02",
+    "tradePrice": 279000,
+    "openingPrice": 283500,
+    "highPrice": 283500,
+    "lowPrice": 274500,
+    "candleAccTradePrice": 1228769698500
+  },
+  {
+    "date": "2025-07-03",
+    "tradePrice": 278500,
+    "openingPrice": 281000,
+    "highPrice": 284000,
+    "lowPrice": 277000,
+    "candleAccTradePrice": 990192404000
+  },
+  {
+    "date": "2025-07-04",
+    "tradePrice": 270500,
+    "openingPrice": 279500,
+    "highPrice": 281500,
+    "lowPrice": 269000,
+    "candleAccTradePrice": 994591561750
+  },
+  {
+    "date": "2025-07-07",
+    "tradePrice": 271000,
+    "openingPrice": 266000,
+    "highPrice": 272000,
+    "lowPrice": 264500,
+    "candleAccTradePrice": 675371735750
+  },
+  {
+    "date": "2025-07-08",
+    "tradePrice": 282000,
+    "openingPrice": 271000,
+    "highPrice": 285000,
+    "lowPrice": 268500,
+    "candleAccTradePrice": 863549191250
+  },
+  {
+    "date": "2025-07-09",
+    "tradePrice": 281000,
+    "openingPrice": 282500,
+    "highPrice": 284000,
+    "lowPrice": 277500,
+    "candleAccTradePrice": 675417327500
+  },
+  {
+    "date": "2025-07-10",
+    "tradePrice": 297000,
+    "openingPrice": 284000,
+    "highPrice": 297000,
+    "lowPrice": 283500,
+    "candleAccTradePrice": 1297306494500
+  },
+  {
+    "date": "2025-07-11",
+    "tradePrice": 294500,
+    "openingPrice": 299500,
+    "highPrice": 306500,
+    "lowPrice": 292000,
+    "candleAccTradePrice": 1071312798750
+  },
+  {
+    "date": "2025-07-14",
+    "tradePrice": 300000,
+    "openingPrice": 292500,
+    "highPrice": 302500,
+    "lowPrice": 292500,
+    "candleAccTradePrice": 877758239250
+  },
+  {
+    "date": "2025-07-15",
+    "tradePrice": 298500,
+    "openingPrice": 296000,
+    "highPrice": 298500,
+    "lowPrice": 290000,
+    "candleAccTradePrice": 1180018480250
+  },
+  {
+    "date": "2025-07-16",
+    "tradePrice": 296000,
+    "openingPrice": 298500,
+    "highPrice": 299500,
+    "lowPrice": 292500,
+    "candleAccTradePrice": 827448996750
+  },
+  {
+    "date": "2025-07-17",
+    "tradePrice": 269500,
+    "openingPrice": 283500,
+    "highPrice": 289500,
+    "lowPrice": 268000,
+    "candleAccTradePrice": 2540681748000
+  },
+  {
+    "date": "2025-07-18",
+    "tradePrice": 269000,
+    "openingPrice": 270000,
+    "highPrice": 275000,
+    "lowPrice": 267000,
+    "candleAccTradePrice": 1412647228500
+  },
+  {
+    "date": "2025-07-21",
+    "tradePrice": 272500,
+    "openingPrice": 267500,
+    "highPrice": 274500,
+    "lowPrice": 266500,
+    "candleAccTradePrice": 657110729750
+  },
+  {
+    "date": "2025-07-22",
+    "tradePrice": 268500,
+    "openingPrice": 273000,
+    "highPrice": 273500,
+    "lowPrice": 267000,
+    "candleAccTradePrice": 801708727750
+  },
+  {
+    "date": "2025-07-23",
+    "tradePrice": 269000,
+    "openingPrice": 267500,
+    "highPrice": 271000,
+    "lowPrice": 264500,
+    "candleAccTradePrice": 823397012500
+  },
+  {
+    "date": "2025-07-24",
+    "tradePrice": 269500,
+    "openingPrice": 277000,
+    "highPrice": 279000,
+    "lowPrice": 269000,
+    "candleAccTradePrice": 997029833000
+  },
+  {
+    "date": "2025-07-25",
+    "tradePrice": 266000,
+    "openingPrice": 273000,
+    "highPrice": 275000,
+    "lowPrice": 265500,
+    "candleAccTradePrice": 583994033750
+  },
+  {
+    "date": "2025-07-28",
+    "tradePrice": 262000,
+    "openingPrice": 261000,
+    "highPrice": 265500,
+    "lowPrice": 258500,
+    "candleAccTradePrice": 752646834750
+  },
+  {
+    "date": "2025-07-29",
+    "tradePrice": 262500,
+    "openingPrice": 254500,
+    "highPrice": 265000,
+    "lowPrice": 254500,
+    "candleAccTradePrice": 751392865750
+  },
+  {
+    "date": "2025-07-30",
+    "tradePrice": 263500,
+    "openingPrice": 263000,
+    "highPrice": 266000,
+    "lowPrice": 260500,
+    "candleAccTradePrice": 652287140750
+  },
+  {
+    "date": "2025-07-31",
+    "tradePrice": 273500,
+    "openingPrice": 271000,
+    "highPrice": 274000,
+    "lowPrice": 265500,
+    "candleAccTradePrice": 942253354250
+  },
+  {
+    "date": "2025-08-01",
+    "tradePrice": 258000,
+    "openingPrice": 266000,
+    "highPrice": 267000,
+    "lowPrice": 257000,
+    "candleAccTradePrice": 825513682250
+  },
+  {
+    "date": "2025-08-04",
+    "tradePrice": 258000,
+    "openingPrice": 254500,
+    "highPrice": 260000,
+    "lowPrice": 254000,
+    "candleAccTradePrice": 586534472250
+  },
+  {
+    "date": "2025-08-05",
+    "tradePrice": 263500,
+    "openingPrice": 264000,
+    "highPrice": 264500,
+    "lowPrice": 260500,
+    "candleAccTradePrice": 555032622750
+  },
+  {
+    "date": "2025-08-06",
+    "tradePrice": 258500,
+    "openingPrice": 260500,
+    "highPrice": 260500,
+    "lowPrice": 257500,
+    "candleAccTradePrice": 355279446250
+  },
+  {
+    "date": "2025-08-07",
+    "tradePrice": 262000,
+    "openingPrice": 258000,
+    "highPrice": 263000,
+    "lowPrice": 250000,
+    "candleAccTradePrice": 698581938000
+  },
+  {
+    "date": "2025-08-08",
+    "tradePrice": 256500,
+    "openingPrice": 262000,
+    "highPrice": 266000,
+    "lowPrice": 255500,
+    "candleAccTradePrice": 686425111250
+  },
+  {
+    "date": "2025-08-11",
+    "tradePrice": 267000,
+    "openingPrice": 260500,
+    "highPrice": 267500,
+    "lowPrice": 260000,
+    "candleAccTradePrice": 598156636500
+  },
+  {
+    "date": "2025-08-12",
+    "tradePrice": 269000,
+    "openingPrice": 268000,
+    "highPrice": 276000,
+    "lowPrice": 267500,
+    "candleAccTradePrice": 811286542000
+  },
+  {
+    "date": "2025-08-13",
+    "tradePrice": 278000,
+    "openingPrice": 278000,
+    "highPrice": 279000,
+    "lowPrice": 274000,
+    "candleAccTradePrice": 957794971750
+  },
+  {
+    "date": "2025-08-14",
+    "tradePrice": 276500,
+    "openingPrice": 277500,
+    "highPrice": 277500,
+    "lowPrice": 270500,
+    "candleAccTradePrice": 569813276250
+  },
+  {
+    "date": "2025-08-18",
+    "tradePrice": 267500,
+    "openingPrice": 272000,
+    "highPrice": 272000,
+    "lowPrice": 267000,
+    "candleAccTradePrice": 517755691500
+  },
+  {
+    "date": "2025-08-19",
+    "tradePrice": 263000,
+    "openingPrice": 268500,
+    "highPrice": 270000,
+    "lowPrice": 261500,
+    "candleAccTradePrice": 447706297000
+  },
+  {
+    "date": "2025-08-20",
+    "tradePrice": 255500,
+    "openingPrice": 254500,
+    "highPrice": 257000,
+    "lowPrice": 251000,
+    "candleAccTradePrice": 867320917500
+  },
+  {
+    "date": "2025-08-21",
+    "tradePrice": 245000,
+    "openingPrice": 246500,
+    "highPrice": 251000,
+    "lowPrice": 245000,
+    "candleAccTradePrice": 1463736896750
+  },
+  {
+    "date": "2025-08-22",
+    "tradePrice": 251000,
+    "openingPrice": 245500,
+    "highPrice": 252500,
+    "lowPrice": 245500,
+    "candleAccTradePrice": 763197812000
+  },
+  {
+    "date": "2025-08-25",
+    "tradePrice": 259500,
+    "openingPrice": 256000,
+    "highPrice": 261500,
+    "lowPrice": 254000,
+    "candleAccTradePrice": 710772681500
+  },
+  {
+    "date": "2025-08-26",
+    "tradePrice": 261500,
+    "openingPrice": 259500,
+    "highPrice": 262500,
+    "lowPrice": 257000,
+    "candleAccTradePrice": 520274101250
+  },
+  {
+    "date": "2025-08-27",
+    "tradePrice": 260000,
+    "openingPrice": 259000,
+    "highPrice": 261000,
+    "lowPrice": 256000,
+    "candleAccTradePrice": 661494712000
+  },
+  {
+    "date": "2025-08-28",
+    "tradePrice": 268500,
+    "openingPrice": 254000,
+    "highPrice": 268500,
+    "lowPrice": 253000,
+    "candleAccTradePrice": 772374244750
+  },
+  {
+    "date": "2025-08-29",
+    "tradePrice": 269000,
+    "openingPrice": 268000,
+    "highPrice": 270000,
+    "lowPrice": 266000,
+    "candleAccTradePrice": 482062466250
+  },
+  {
+    "date": "2025-09-01",
+    "tradePrice": 256000,
+    "openingPrice": 259500,
+    "highPrice": 261000,
+    "lowPrice": 255000,
+    "candleAccTradePrice": 457803808500
+  },
+  {
+    "date": "2025-09-02",
+    "tradePrice": 260500,
+    "openingPrice": 256000,
+    "highPrice": 261500,
+    "lowPrice": 256000,
+    "candleAccTradePrice": 411904709500
+  },
+  {
+    "date": "2025-09-03",
+    "tradePrice": 262500,
+    "openingPrice": 259500,
+    "highPrice": 265500,
+    "lowPrice": 257750,
+    "candleAccTradePrice": 635810509250
+  },
+  {
+    "date": "2025-09-04",
+    "tradePrice": 265500,
+    "openingPrice": 267000,
+    "highPrice": 271000,
+    "lowPrice": 264500,
+    "candleAccTradePrice": 584491358000
+  },
+  {
+    "date": "2025-09-05",
+    "tradePrice": 273500,
+    "openingPrice": 273000,
+    "highPrice": 275000,
+    "lowPrice": 272000,
+    "candleAccTradePrice": 831311799750
+  },
+  {
+    "date": "2025-09-08",
+    "tradePrice": 277000,
+    "openingPrice": 278500,
+    "highPrice": 279000,
+    "lowPrice": 274000,
+    "candleAccTradePrice": 559055148500
+  },
+  {
+    "date": "2025-09-09",
+    "tradePrice": 288000,
+    "openingPrice": 278000,
+    "highPrice": 288500,
+    "lowPrice": 277000,
+    "candleAccTradePrice": 1133366960500
+  },
+  {
+    "date": "2025-09-10",
+    "tradePrice": 304000,
+    "openingPrice": 294500,
+    "highPrice": 305000,
+    "lowPrice": 293000,
+    "candleAccTradePrice": 1580242505500
+  },
+  {
+    "date": "2025-09-11",
+    "tradePrice": 307000,
+    "openingPrice": 310000,
+    "highPrice": 315000,
+    "lowPrice": 305500,
+    "candleAccTradePrice": 1507032120500
+  },
+  {
+    "date": "2025-09-12",
+    "tradePrice": 328500,
+    "openingPrice": 322000,
+    "highPrice": 329500,
+    "lowPrice": 319000,
+    "candleAccTradePrice": 1366202513750
+  },
+  {
+    "date": "2025-09-15",
+    "tradePrice": 331000,
+    "openingPrice": 339500,
+    "highPrice": 341500,
+    "lowPrice": 325000,
+    "candleAccTradePrice": 1390367465000
+  },
+  {
+    "date": "2025-09-16",
+    "tradePrice": 348000,
+    "openingPrice": 331500,
+    "highPrice": 354000,
+    "lowPrice": 331500,
+    "candleAccTradePrice": 1973420905000
+  },
+  {
+    "date": "2025-09-17",
+    "tradePrice": 333500,
+    "openingPrice": 341000,
+    "highPrice": 342500,
+    "lowPrice": 333500,
+    "candleAccTradePrice": 1463233601750
+  },
+  {
+    "date": "2025-09-18",
+    "tradePrice": 353000,
+    "openingPrice": 338500,
+    "highPrice": 357000,
+    "lowPrice": 336500,
+    "candleAccTradePrice": 1446279131250
+  },
+  {
+    "date": "2025-09-19",
+    "tradePrice": 353000,
+    "openingPrice": 351500,
+    "highPrice": 360000,
+    "lowPrice": 348000,
+    "candleAccTradePrice": 1374494881500
+  },
+  {
+    "date": "2025-09-22",
+    "tradePrice": 351000,
+    "openingPrice": 349000,
+    "highPrice": 359000,
+    "lowPrice": 345250,
+    "candleAccTradePrice": 1521516237500
+  },
+  {
+    "date": "2025-09-23",
+    "tradePrice": 361000,
+    "openingPrice": 355500,
+    "highPrice": 363000,
+    "lowPrice": 353000,
+    "candleAccTradePrice": 1134424645750
+  },
+  {
+    "date": "2025-09-24",
+    "tradePrice": 357500,
+    "openingPrice": 359000,
+    "highPrice": 364000,
+    "lowPrice": 348500,
+    "candleAccTradePrice": 1361639023750
+  },
+  {
+    "date": "2025-09-25",
+    "tradePrice": 356500,
+    "openingPrice": 352000,
+    "highPrice": 359000,
+    "lowPrice": 349500,
+    "candleAccTradePrice": 761691711000
+  },
+  {
+    "date": "2025-09-26",
+    "tradePrice": 336500,
+    "openingPrice": 347500,
+    "highPrice": 349000,
+    "lowPrice": 333000,
+    "candleAccTradePrice": 1178958305250
+  },
+  {
+    "date": "2025-09-29",
+    "tradePrice": 349000,
+    "openingPrice": 339500,
+    "highPrice": 351000,
+    "lowPrice": 339000,
+    "candleAccTradePrice": 790314912500
+  },
+  {
+    "date": "2025-09-30",
+    "tradePrice": 347500,
+    "openingPrice": 353000,
+    "highPrice": 356500,
+    "lowPrice": 347500,
+    "candleAccTradePrice": 758420696750
+  },
+  {
+    "date": "2025-10-01",
+    "tradePrice": 360000,
+    "openingPrice": 351000,
+    "highPrice": 362000,
+    "lowPrice": 351000,
+    "candleAccTradePrice": 999679945750
+  },
+  {
+    "date": "2025-10-02",
+    "tradePrice": 395500,
+    "openingPrice": 388500,
+    "highPrice": 404500,
+    "lowPrice": 384000,
+    "candleAccTradePrice": 2929623743000
+  },
+  {
+    "date": "2025-10-10",
+    "tradePrice": 428000,
+    "openingPrice": 426000,
+    "highPrice": 439250,
+    "lowPrice": 416500,
+    "candleAccTradePrice": 2771610324250
+  },
+  {
+    "date": "2025-10-13",
+    "tradePrice": 415000,
+    "openingPrice": 405500,
+    "highPrice": 415500,
+    "lowPrice": 403000,
+    "candleAccTradePrice": 1736779173750
+  },
+  {
+    "date": "2025-10-14",
+    "tradePrice": 411500,
+    "openingPrice": 425000,
+    "highPrice": 436500,
+    "lowPrice": 406500,
+    "candleAccTradePrice": 1635269210750
+  },
+  {
+    "date": "2025-10-15",
+    "tradePrice": 422500,
+    "openingPrice": 410500,
+    "highPrice": 424000,
+    "lowPrice": 407000,
+    "candleAccTradePrice": 1113202018250
+  },
+  {
+    "date": "2025-10-16",
+    "tradePrice": 452500,
+    "openingPrice": 421000,
+    "highPrice": 455000,
+    "lowPrice": 420500,
+    "candleAccTradePrice": 1882775295750
+  },
+  {
+    "date": "2025-10-17",
+    "tradePrice": 465500,
+    "openingPrice": 451500,
+    "highPrice": 475000,
+    "lowPrice": 449500,
+    "candleAccTradePrice": 2100818004500
+  },
+  {
+    "date": "2025-10-20",
+    "tradePrice": 485500,
+    "openingPrice": 477500,
+    "highPrice": 485500,
+    "lowPrice": 465500,
+    "candleAccTradePrice": 1590019441250
+  },
+  {
+    "date": "2025-10-21",
+    "tradePrice": 479000,
+    "openingPrice": 497000,
+    "highPrice": 502000,
+    "lowPrice": 478000,
+    "candleAccTradePrice": 2022639309000
+  },
+  {
+    "date": "2025-10-22",
+    "tradePrice": 481500,
+    "openingPrice": 475000,
+    "highPrice": 482000,
+    "lowPrice": 469000,
+    "candleAccTradePrice": 1665025031000
+  },
+  {
+    "date": "2025-10-23",
+    "tradePrice": 478500,
+    "openingPrice": 470000,
+    "highPrice": 488500,
+    "lowPrice": 468000,
+    "candleAccTradePrice": 1589258986750
+  },
+  {
+    "date": "2025-10-24",
+    "tradePrice": 510000,
+    "openingPrice": 493000,
+    "highPrice": 513000,
+    "lowPrice": 491500,
+    "candleAccTradePrice": 2124723286500
+  },
+  {
+    "date": "2025-10-27",
+    "tradePrice": 535000,
+    "openingPrice": 533000,
+    "highPrice": 537000,
+    "lowPrice": 523000,
+    "candleAccTradePrice": 1788749373000
+  },
+  {
+    "date": "2025-10-28",
+    "tradePrice": 521000,
+    "openingPrice": 521000,
+    "highPrice": 527000,
+    "lowPrice": 509000,
+    "candleAccTradePrice": 2873799879500
+  },
+  {
+    "date": "2025-10-29",
+    "tradePrice": 558000,
+    "openingPrice": 538000,
+    "highPrice": 559000,
+    "lowPrice": 523000,
+    "candleAccTradePrice": 2557694166000
+  },
+  {
+    "date": "2025-10-30",
+    "tradePrice": 568000,
+    "openingPrice": 558000,
+    "highPrice": 579000,
+    "lowPrice": 552000,
+    "candleAccTradePrice": 2757017800500
+  },
+  {
+    "date": "2025-10-31",
+    "tradePrice": 559000,
+    "openingPrice": 557000,
+    "highPrice": 566000,
+    "lowPrice": 552000,
+    "candleAccTradePrice": 1872267948000
+  },
+  {
+    "date": "2025-11-03",
+    "tradePrice": 620000,
+    "openingPrice": 557000,
+    "highPrice": 624000,
+    "lowPrice": 555000,
+    "candleAccTradePrice": 3430563668500
+  },
+  {
+    "date": "2025-11-04",
+    "tradePrice": 586000,
+    "openingPrice": 611000,
+    "highPrice": 614000,
+    "lowPrice": 583000,
+    "candleAccTradePrice": 3535786520000
+  },
+  {
+    "date": "2025-11-05",
+    "tradePrice": 579000,
+    "openingPrice": 563000,
+    "highPrice": 587000,
+    "lowPrice": 532000,
+    "candleAccTradePrice": 4931208859000
+  },
+  {
+    "date": "2025-11-06",
+    "tradePrice": 593000,
+    "openingPrice": 602000,
+    "highPrice": 607000,
+    "lowPrice": 583000,
+    "candleAccTradePrice": 3095180498500
+  },
+  {
+    "date": "2025-11-07",
+    "tradePrice": 580000,
+    "openingPrice": 577000,
+    "highPrice": 599000,
+    "lowPrice": 565000,
+    "candleAccTradePrice": 2783551779500
+  },
+  {
+    "date": "2025-11-10",
+    "tradePrice": 606000,
+    "openingPrice": 584000,
+    "highPrice": 615000,
+    "lowPrice": 581000,
+    "candleAccTradePrice": 2935674794000
+  },
+  {
+    "date": "2025-11-11",
+    "tradePrice": 619000,
+    "openingPrice": 622000,
+    "highPrice": 646000,
+    "lowPrice": 604000,
+    "candleAccTradePrice": 3436554727000
+  },
+  {
+    "date": "2025-11-12",
+    "tradePrice": 617000,
+    "openingPrice": 605000,
+    "highPrice": 620000,
+    "lowPrice": 601000,
+    "candleAccTradePrice": 1714560300000
+  },
+  {
+    "date": "2025-11-13",
+    "tradePrice": 612000,
+    "openingPrice": 607000,
+    "highPrice": 622000,
+    "lowPrice": 607000,
+    "candleAccTradePrice": 2291667432500
+  },
+  {
+    "date": "2025-11-14",
+    "tradePrice": 560000,
+    "openingPrice": 579000,
+    "highPrice": 585000,
+    "lowPrice": 560000,
+    "candleAccTradePrice": 3293904801000
+  },
+  {
+    "date": "2025-11-17",
+    "tradePrice": 606000,
+    "openingPrice": 588000,
+    "highPrice": 606000,
+    "lowPrice": 584000,
+    "candleAccTradePrice": 2543483042000
+  },
+  {
+    "date": "2025-11-18",
+    "tradePrice": 570000,
+    "openingPrice": 583000,
+    "highPrice": 591000,
+    "lowPrice": 570000,
+    "candleAccTradePrice": 2043912417000
+  },
+  {
+    "date": "2025-11-19",
+    "tradePrice": 562000,
+    "openingPrice": 563000,
+    "highPrice": 570000,
+    "lowPrice": 546000,
+    "candleAccTradePrice": 2401097850000
+  },
+  {
+    "date": "2025-11-20",
+    "tradePrice": 571000,
+    "openingPrice": 595000,
+    "highPrice": 597000,
+    "lowPrice": 570000,
+    "candleAccTradePrice": 2710785100000
+  },
+  {
+    "date": "2025-11-21",
+    "tradePrice": 521000,
+    "openingPrice": 518000,
+    "highPrice": 531000,
+    "lowPrice": 514000,
+    "candleAccTradePrice": 3457768019500
+  },
+  {
+    "date": "2025-11-24",
+    "tradePrice": 520000,
+    "openingPrice": 531000,
+    "highPrice": 542000,
+    "lowPrice": 517000,
+    "candleAccTradePrice": 2824137539000
+  },
+  {
+    "date": "2025-11-25",
+    "tradePrice": 519000,
+    "openingPrice": 546000,
+    "highPrice": 550000,
+    "lowPrice": 518000,
+    "candleAccTradePrice": 1839800243000
+  },
+  {
+    "date": "2025-11-26",
+    "tradePrice": 524000,
+    "openingPrice": 513000,
+    "highPrice": 528000,
+    "lowPrice": 501000,
+    "candleAccTradePrice": 2601559764500
+  },
+  {
+    "date": "2025-11-27",
+    "tradePrice": 544000,
+    "openingPrice": 535000,
+    "highPrice": 556000,
+    "lowPrice": 533000,
+    "candleAccTradePrice": 1953699929500
+  },
+  {
+    "date": "2025-11-28",
+    "tradePrice": 530000,
+    "openingPrice": 551000,
+    "highPrice": 552000,
+    "lowPrice": 530000,
+    "candleAccTradePrice": 1410373812000
+  },
+  {
+    "date": "2025-12-01",
+    "tradePrice": 538000,
+    "openingPrice": 542000,
+    "highPrice": 545000,
+    "lowPrice": 525000,
+    "candleAccTradePrice": 1686445858500
+  },
+  {
+    "date": "2025-12-02",
+    "tradePrice": 558000,
+    "openingPrice": 548000,
+    "highPrice": 559000,
+    "lowPrice": 542000,
+    "candleAccTradePrice": 1488635924000
+  },
+  {
+    "date": "2025-12-03",
+    "tradePrice": 552000,
+    "openingPrice": 550000,
+    "highPrice": 559000,
+    "lowPrice": 544000,
+    "candleAccTradePrice": 1415641853000
+  },
+  {
+    "date": "2025-12-04",
+    "tradePrice": 542000,
+    "openingPrice": 542000,
+    "highPrice": 543000,
+    "lowPrice": 532000,
+    "candleAccTradePrice": 1521294308000
+  },
+  {
+    "date": "2025-12-05",
+    "tradePrice": 544000,
+    "openingPrice": 530000,
+    "highPrice": 546000,
+    "lowPrice": 527000,
+    "candleAccTradePrice": 1632918871500
+  },
+  {
+    "date": "2025-12-08",
+    "tradePrice": 577000,
+    "openingPrice": 543000,
+    "highPrice": 580000,
+    "lowPrice": 533000,
+    "candleAccTradePrice": 2385466494000
+  },
+  {
+    "date": "2025-12-09",
+    "tradePrice": 566000,
+    "openingPrice": 569000,
+    "highPrice": 575000,
+    "lowPrice": 564000,
+    "candleAccTradePrice": 1338395910000
+  },
+  {
+    "date": "2025-12-10",
+    "tradePrice": 587000,
+    "openingPrice": 571000,
+    "highPrice": 593000,
+    "lowPrice": 570000,
+    "candleAccTradePrice": 2334379198500
+  },
+  {
+    "date": "2025-12-11",
+    "tradePrice": 565000,
+    "openingPrice": 583000,
+    "highPrice": 589000,
+    "lowPrice": 565000,
+    "candleAccTradePrice": 2235784379500
+  },
+  {
+    "date": "2025-12-12",
+    "tradePrice": 571000,
+    "openingPrice": 565000,
+    "highPrice": 579000,
+    "lowPrice": 560000,
+    "candleAccTradePrice": 1498696632000
+  },
+  {
+    "date": "2025-12-15",
+    "tradePrice": 554000,
+    "openingPrice": 535000,
+    "highPrice": 563500,
+    "lowPrice": 535000,
+    "candleAccTradePrice": 1351009131500
+  },
+  {
+    "date": "2025-12-16",
+    "tradePrice": 530000,
+    "openingPrice": 545000,
+    "highPrice": 551000,
+    "lowPrice": 530000,
+    "candleAccTradePrice": 1734456622000
+  },
+  {
+    "date": "2025-12-17",
+    "tradePrice": 551000,
+    "openingPrice": 530000,
+    "highPrice": 554000,
+    "lowPrice": 525000,
+    "candleAccTradePrice": 1372878579500
+  },
+  {
+    "date": "2025-12-18",
+    "tradePrice": 552000,
+    "openingPrice": 538000,
+    "highPrice": 563000,
+    "lowPrice": 537000,
+    "candleAccTradePrice": 1581212046000
+  },
+  {
+    "date": "2025-12-19",
+    "tradePrice": 547000,
+    "openingPrice": 569000,
+    "highPrice": 570000,
+    "lowPrice": 547000,
+    "candleAccTradePrice": 1823133317000
+  },
+  {
+    "date": "2025-12-22",
+    "tradePrice": 580000,
+    "openingPrice": 574000,
+    "highPrice": 580000,
+    "lowPrice": 567000,
+    "candleAccTradePrice": 1643837437000
+  },
+  {
+    "date": "2025-12-23",
+    "tradePrice": 584000,
+    "openingPrice": 585000,
+    "highPrice": 593000,
+    "lowPrice": 581000,
+    "candleAccTradePrice": 1170561068000
+  },
+  {
+    "date": "2025-12-24",
+    "tradePrice": 588000,
+    "openingPrice": 587000,
+    "highPrice": 591000,
+    "lowPrice": 584000,
+    "candleAccTradePrice": 1263730600000
+  },
+  {
+    "date": "2025-12-26",
+    "tradePrice": 599000,
+    "openingPrice": 594000,
+    "highPrice": 605000,
+    "lowPrice": 590000,
+    "candleAccTradePrice": 2484341887000
+  },
+  {
+    "date": "2025-12-29",
+    "tradePrice": 640000,
+    "openingPrice": 630000,
+    "highPrice": 640000,
+    "lowPrice": 625000,
+    "candleAccTradePrice": 2641485867000
+  },
+  {
+    "date": "2025-12-30",
+    "tradePrice": 651000,
+    "openingPrice": 639000,
+    "highPrice": 659000,
+    "lowPrice": 634000,
+    "candleAccTradePrice": 2345765050500
+  },
+  {
+    "date": "2026-01-02",
+    "tradePrice": 677000,
+    "openingPrice": 651000,
+    "highPrice": 679000,
+    "lowPrice": 647000,
+    "candleAccTradePrice": 2752990675500
+  },
+  {
+    "date": "2026-01-05",
+    "tradePrice": 696000,
+    "openingPrice": 698000,
+    "highPrice": 700000,
+    "lowPrice": 684000,
+    "candleAccTradePrice": 2849874636000
+  },
+  {
+    "date": "2026-01-06",
+    "tradePrice": 726000,
+    "openingPrice": 690000,
+    "highPrice": 727000,
+    "lowPrice": 671000,
+    "candleAccTradePrice": 3352127246000
+  },
+  {
+    "date": "2026-01-07",
+    "tradePrice": 742000,
+    "openingPrice": 760000,
+    "highPrice": 762000,
+    "lowPrice": 728000,
+    "candleAccTradePrice": 4237860932000
+  },
+  {
+    "date": "2026-01-08",
+    "tradePrice": 756000,
+    "openingPrice": 731000,
+    "highPrice": 788000,
+    "lowPrice": 731000,
+    "candleAccTradePrice": 4883831076000
+  },
+  {
+    "date": "2026-01-09",
+    "tradePrice": 744000,
+    "openingPrice": 744000,
+    "highPrice": 756000,
+    "lowPrice": 727000,
+    "candleAccTradePrice": 2993094981000
+  },
+  {
+    "date": "2026-01-12",
+    "tradePrice": 749000,
+    "openingPrice": 755000,
+    "highPrice": 762000,
+    "lowPrice": 735000,
+    "candleAccTradePrice": 2499296746000
+  },
+  {
+    "date": "2026-01-13",
+    "tradePrice": 738000,
+    "openingPrice": 753000,
+    "highPrice": 754000,
+    "lowPrice": 724000,
+    "candleAccTradePrice": 2725284771000
+  },
+  {
+    "date": "2026-01-14",
+    "tradePrice": 742000,
+    "openingPrice": 733000,
+    "highPrice": 750000,
+    "lowPrice": 728000,
+    "candleAccTradePrice": 2315982061500
+  },
+  {
+    "date": "2026-01-15",
+    "tradePrice": 749000,
+    "openingPrice": 732000,
+    "highPrice": 750000,
+    "lowPrice": 727000,
+    "candleAccTradePrice": 2208025169500
+  },
+  {
+    "date": "2026-01-16",
+    "tradePrice": 756000,
+    "openingPrice": 751000,
+    "highPrice": 763000,
+    "lowPrice": 747000,
+    "candleAccTradePrice": 2692805161500
+  },
+  {
+    "date": "2026-01-19",
+    "tradePrice": 764000,
+    "openingPrice": 755000,
+    "highPrice": 774000,
+    "lowPrice": 750000,
+    "candleAccTradePrice": 2582321927000
+  },
+  {
+    "date": "2026-01-20",
+    "tradePrice": 743000,
+    "openingPrice": 764000,
+    "highPrice": 764000,
+    "lowPrice": 737000,
+    "candleAccTradePrice": 2064507003000
+  },
+  {
+    "date": "2026-01-21",
+    "tradePrice": 740000,
+    "openingPrice": 729000,
+    "highPrice": 756000,
+    "lowPrice": 728000,
+    "candleAccTradePrice": 2788708154000
+  },
+  {
+    "date": "2026-01-22",
+    "tradePrice": 755000,
+    "openingPrice": 766000,
+    "highPrice": 773000,
+    "lowPrice": 751000,
+    "candleAccTradePrice": 2666597977000
+  },
+  {
+    "date": "2026-01-23",
+    "tradePrice": 767000,
+    "openingPrice": 754000,
+    "highPrice": 776000,
+    "lowPrice": 744000,
+    "candleAccTradePrice": 2544324494500
+  },
+  {
+    "date": "2026-01-26",
+    "tradePrice": 736000,
+    "openingPrice": 753000,
+    "highPrice": 754000,
+    "lowPrice": 736000,
+    "candleAccTradePrice": 2253718125000
+  },
+  {
+    "date": "2026-01-27",
+    "tradePrice": 800000,
+    "openingPrice": 738000,
+    "highPrice": 800000,
+    "lowPrice": 733000,
+    "candleAccTradePrice": 4289898338000
+  },
+  {
+    "date": "2026-01-28",
+    "tradePrice": 841000,
+    "openingPrice": 810000,
+    "highPrice": 854000,
+    "lowPrice": 803000,
+    "candleAccTradePrice": 5065809365000
+  },
+  {
+    "date": "2026-01-29",
+    "tradePrice": 861000,
+    "openingPrice": 879000,
+    "highPrice": 884000,
+    "lowPrice": 819000,
+    "candleAccTradePrice": 5600820592500
+  },
+  {
+    "date": "2026-01-30",
+    "tradePrice": 909000,
+    "openingPrice": 854000,
+    "highPrice": 931000,
+    "lowPrice": 853000,
+    "candleAccTradePrice": 6820098191000
+  },
+  {
+    "date": "2026-02-02",
+    "tradePrice": 830000,
+    "openingPrice": 870000,
+    "highPrice": 888000,
+    "lowPrice": 830000,
+    "candleAccTradePrice": 6513024899000
+  },
+  {
+    "date": "2026-02-03",
+    "tradePrice": 907000,
+    "openingPrice": 874000,
+    "highPrice": 907000,
+    "lowPrice": 871000,
+    "candleAccTradePrice": 4536208911000
+  },
+  {
+    "date": "2026-02-04",
+    "tradePrice": 900000,
+    "openingPrice": 884000,
+    "highPrice": 906000,
+    "lowPrice": 883000,
+    "candleAccTradePrice": 3349343097500
+  },
+  {
+    "date": "2026-02-05",
+    "tradePrice": 842000,
+    "openingPrice": 851000,
+    "highPrice": 877000,
+    "lowPrice": 838000,
+    "candleAccTradePrice": 4647949301500
+  },
+  {
+    "date": "2026-02-06",
+    "tradePrice": 839000,
+    "openingPrice": 805000,
+    "highPrice": 850000,
+    "lowPrice": 791000,
+    "candleAccTradePrice": 4565481726500
+  },
+  {
+    "date": "2026-02-09",
+    "tradePrice": 887000,
+    "openingPrice": 898000,
+    "highPrice": 899000,
+    "lowPrice": 873000,
+    "candleAccTradePrice": 3745414293500
+  },
+  {
+    "date": "2026-02-10",
+    "tradePrice": 876000,
+    "openingPrice": 894000,
+    "highPrice": 905000,
+    "lowPrice": 876000,
+    "candleAccTradePrice": 2933663084000
+  },
+  {
+    "date": "2026-02-11",
+    "tradePrice": 860000,
+    "openingPrice": 860000,
+    "highPrice": 874000,
+    "lowPrice": 848000,
+    "candleAccTradePrice": 2690848829000
+  },
+  {
+    "date": "2026-02-12",
+    "tradePrice": 888000,
+    "openingPrice": 882000,
+    "highPrice": 894000,
+    "lowPrice": 878000,
+    "candleAccTradePrice": 3898363326500
+  },
+  {
+    "date": "2026-02-13",
+    "tradePrice": 880000,
+    "openingPrice": 889000,
+    "highPrice": 903000,
+    "lowPrice": 878000,
+    "candleAccTradePrice": 2988409948000
+  },
+  {
+    "date": "2026-02-19",
+    "tradePrice": 894000,
+    "openingPrice": 905000,
+    "highPrice": 913000,
+    "lowPrice": 888000,
+    "candleAccTradePrice": 2824147541000
+  },
+  {
+    "date": "2026-02-20",
+    "tradePrice": 949000,
+    "openingPrice": 892000,
+    "highPrice": 955000,
+    "lowPrice": 881000,
+    "candleAccTradePrice": 4597075343000
+  },
+  {
+    "date": "2026-02-23",
+    "tradePrice": 951000,
+    "openingPrice": 980000,
+    "highPrice": 980000,
+    "lowPrice": 941000,
+    "candleAccTradePrice": 3340327038500
+  },
+  {
+    "date": "2026-02-24",
+    "tradePrice": 1005000,
+    "openingPrice": 952000,
+    "highPrice": 1005000,
+    "lowPrice": 946000,
+    "candleAccTradePrice": 3945251086000
+  },
+  {
+    "date": "2026-02-25",
+    "tradePrice": 1018000,
+    "openingPrice": 1012000,
+    "highPrice": 1038000,
+    "lowPrice": 1004000,
+    "candleAccTradePrice": 3455849828000
+  }
+]
