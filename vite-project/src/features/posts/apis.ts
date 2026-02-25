@@ -155,7 +155,9 @@ export async function fetchCreatePostComment(
         'Content-Type': 'application/json',
         ...(token ? { Authorization: `Bearer ${token}` } : {}),
       },
-      body: JSON.stringify(input),
+      body: JSON.stringify(
+        input.parentId ? { input } : { content: input.content }
+      ),
     }
   );
 

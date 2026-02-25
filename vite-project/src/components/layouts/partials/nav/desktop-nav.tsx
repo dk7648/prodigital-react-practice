@@ -3,11 +3,14 @@ import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import { useAuth } from '@/features/auth/hooks';
 import { toast } from 'sonner';
+import { useTheme } from '@/stores/Theme-store';
 interface DesktopNavProps {
   navItems: { to: string; label: string; end?: boolean }[];
 }
 export default function DesktopNav({ navItems }: DesktopNavProps) {
   const { user, logout } = useAuth();
+  const theme = useTheme(s => s.theme);
+  const toggleTheme = useTheme(s => s.toggleTheme);
   return (
     <>
       <nav className="ml-10 hidden items-center gap-6 md:flex">
@@ -28,6 +31,13 @@ export default function DesktopNav({ navItems }: DesktopNavProps) {
         ))}
       </nav>
       <div className="ml-auto hidden items-center gap-2 md:flex">
+        <Button
+          onClick={() => {
+            toggleTheme();
+          }}
+        >
+          {theme}
+        </Button>
         {user ? (
           <>
             <Button

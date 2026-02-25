@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 
-function useInfiniteScroll(onReachEnd: () => void, enabled = true) {
+export function useInfiniteScroll(onReachEnd: () => void, enabled = true) {
   const ref = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {

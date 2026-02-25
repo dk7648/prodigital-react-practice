@@ -19,7 +19,133 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Textarea } from '@/components/ui/textarea';
 import { useAuth } from '@/features/auth/hooks';
 
+type Comment = {
+  id: number;
+  content: string;
+  createdAt: string;
+  author: { nickname: string };
+  children?: Comment[];
+};
+
+type WriteCommentProps = {
+  value: string;
+  onChange: (v: string) => void;
+  onSubmit: () => void;
+  isPending: boolean;
+};
+
+function WriteComment({
+  value,
+  onChange,
+  onSubmit,
+  isPending,
+}: WriteCommentProps) {
+  return (
+    <div className="grid gap-2">
+      <Textarea
+        rows={3}
+        placeholder="댓글을 입력하세요"
+        value={value}
+        onChange={e => onChange(e.target.value)}
+      />
+      <div className="flex justify-end">
+        <Button
+          type="button"
+          onClick={onSubmit}
+          disabled={isPending || value.trim().length === 0}
+        >
+          {isPending ? '등록 중...' : '댓글 등록'}
+        </Button>
+      </div>
+    </div>
+  );
+}
+
+type SearchCommentsProps = {
+  c: Comment;
+  depth: number;
+  focusCommentId: number | null;
+  setFocusCommentId: React.Dispatch<React.SetStateAction<number | null>>;
+  replyTextByParentId: Record<number, string>;
+  setReplyTextByParentId: React.Dispatch<
+    React.SetStateAction<Record<number, string>>
+  >;
+  onSubmitReply: (parentId: number) => void;
+  isCreateCommentPending: boolean;
+};
+
+function SearchComments({
+  c,
+  depth,
+  focusCommentId,
+  setFocusCommentId,
+  replyTextByParentId,
+  setReplyTextByParentId,
+  onSubmitReply,
+  isCreateCommentPending,
+}: SearchCommentsProps) {
+  const replyText = replyTextByParentId[c.id] ?? '';
+
+  return (
+    <div className={depth === 0 ? '' : 'mt-2 pl-4'}>
+      <div
+        className="rounded-lg border bg-background/50 p-3"
+        onClick={() => setFocusCommentId(prev => (prev === c.id ? null : c.id))}
+      >
+        <div className="flex items-center justify-between gap-2">
+          <div className="text-sm font-medium">{c.author.nickname}</div>
+          <div className="text-xs text-muted-foreground">{c.createdAt}</div>
+        </div>
+        <div className="mt-1 whitespace-pre-wrap text-sm">{c.content}</div>
+      </div>
+
+      {c.id === focusCommentId && (
+        <div className="mt-2 pl-4">
+          <WriteComment
+            value={replyText}
+            onChange={v =>
+              setReplyTextByParentId(prev => ({
+                ...prev,
+                [c.id]: v,
+              }))
+            }
+            onSubmit={() => {
+              if (depth === 2) alert('답글은 3단계까지만 가능합니다.');
+              else onSubmitReply(c.id);
+            }}
+            isPending={isCreateCommentPending}
+          />
+        </div>
+      )}
+
+      {(c.children ?? []).length > 0 && (
+        <div className="mt-2 space-y-2">
+          {c.children!.map(child => (
+            <SearchComments
+              key={child.id}
+              c={child}
+              depth={depth + 1}
+              focusCommentId={focusCommentId}
+              setFocusCommentId={setFocusCommentId}
+              replyTextByParentId={replyTextByParentId}
+              setReplyTextByParentId={setReplyTextByParentId}
+              onSubmitReply={onSubmitReply}
+              isCreateCommentPending={isCreateCommentPending}
+            />
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 export function PostDetail() {
+  const [focusCommentId, setFocusCommentId] = useState<number | null>(null);
+  const [rootCommentText, setRootCommentText] = useState('');
+  const [replyTextByParentId, setReplyTextByParentId] = useState<
+    Record<number, string>
+  >({});
+
   const { postId } = useParams();
   const id = Number(postId);
   const enabled = Number.isFinite(id) && id > 0;
@@ -27,46 +153,60 @@ export function PostDetail() {
   const qc = useQueryClient();
   const { user } = useAuth();
 
-  // query options / keys (1번만)
   const detailQuery = useMemo(() => getPostDetailQueryOptions(id), [id]);
   const likeQuery = useMemo(() => getPostLikeStatusQueryOptions(id), [id]);
   const commentsQuery = useMemo(() => getPostCommentsQueryOptions(id), [id]);
 
-  // 게시글 상세
   const {
     data: detailResp,
     isLoading: isDetailLoading,
     isError: isDetailError,
   } = useQuery({ ...detailQuery, enabled });
 
-  // 좋아요 상태/카운트
   const {
     data: likeResp,
     isLoading: isLikeLoading,
     isError: isLikeError,
   } = useQuery({ ...likeQuery, enabled });
 
-  // 댓글 목록
   const {
     data: commentsResp,
     isLoading: isCommentsLoading,
     isError: isCommentsError,
   } = useQuery({ ...commentsQuery, enabled });
 
-  // 댓글 작성
-  const [commentText, setCommentText] = useState('');
+  const likeKey = likeQuery.queryKey;
+  const detailKey = detailQuery.queryKey;
+
   const { mutate: createComment, isPending: isCreateCommentPending } =
     useMutation({
-      mutationFn: () =>
-        fetchCreatePostComment(id, { content: commentText.trim() }),
-      onSuccess: () => {
-        setCommentText('');
+      mutationFn: ({
+        content,
+        parentId,
+      }: {
+        content: string;
+        parentId: number | null;
+      }) =>
+        fetchCreatePostComment(id, {
+          content,
+          parentId,
+        }),
+      onSuccess: (_data, vars) => {
+        if (vars.parentId == null) {
+          setRootCommentText('');
+        } else {
+          setReplyTextByParentId(prev => ({
+            ...prev,
+            [vars.parentId!]: '',
+          }));
+          setFocusCommentId(null);
+        }
+
         qc.invalidateQueries({ queryKey: commentsQuery.queryKey });
         qc.invalidateQueries({ queryKey: detailKey });
       },
     });
 
-  // 게시글 삭제
   const { mutate: deletePost, isPending: isDeletePending } = useMutation({
     mutationFn: () => fetchPostDelete(id),
     onSuccess: () => {
@@ -74,15 +214,12 @@ export function PostDetail() {
       window.location.href = '/posts';
     },
   });
-  const likeKey = likeQuery.queryKey;
-  const detailKey = detailQuery.queryKey;
 
   type ToggleVars = { wasLiked: boolean };
 
   const { mutate: toggleLike, isPending: isLikeMutating } = useMutation({
-    mutationFn: async ({ wasLiked }: ToggleVars) => {
-      return wasLiked ? fetchDeletePostLike(id) : fetchCreatePostLike(id);
-    },
+    mutationFn: async ({ wasLiked }: ToggleVars) =>
+      wasLiked ? fetchDeletePostLike(id) : fetchCreatePostLike(id),
 
     onMutate: async ({ wasLiked }: ToggleVars) => {
       await qc.cancelQueries({ queryKey: likeKey });
@@ -92,7 +229,7 @@ export function PostDetail() {
       const prevDetail = qc.getQueryData<any>(detailKey);
 
       const currentCount =
-        prevLike?.likeCount ?? prevDetail?.post?.likeCount ?? 0;
+        prevLike?.items?.[0]?.likeCount ?? prevDetail?.post?.likeCount ?? 0;
 
       const nextLiked = !wasLiked;
       const nextCount = Math.max(0, currentCount + (nextLiked ? 1 : -1));
@@ -123,15 +260,16 @@ export function PostDetail() {
     },
   });
 
-  // 클릭 핸들러에서 "원래 값"을 계산해서 전달
   const onClickLike = () => {
     if (!canToggleLike) return alert('로그인이 필요합니다.');
     const cached = qc.getQueryData<any>(likeKey);
-    const wasLiked = cached?.likedByMe ?? likeResp?.likedByMe ?? false;
+    const cachedStatus = cached?.items?.[0];
+    const likeRespStatus = (likeResp as any)?.items?.[0];
+    const wasLiked =
+      cachedStatus?.likedByMe ?? likeRespStatus?.likedByMe ?? false;
     toggleLike({ wasLiked });
   };
 
-  // --- early returns ---
   if (!enabled)
     return <div className="mx-auto max-w-3xl px-4 py-6">잘못된 게시글 id</div>;
   if (isDetailLoading)
@@ -144,10 +282,9 @@ export function PostDetail() {
     );
 
   const post = detailResp.post;
-
-  const likeCount = likeResp?.likeCount ?? post.likeCount ?? 0;
-  const likedByMe = likeResp?.likedByMe ?? false;
-
+  const likeStatus = (likeResp as any)?.items?.[0];
+  const likeCount = likeStatus?.likeCount ?? post.likeCount ?? 0;
+  const likedByMe = likeStatus?.likedByMe ?? false;
   const comments =
     (commentsResp as any)?.comments ?? (commentsResp as any)?.items ?? [];
 
@@ -162,9 +299,20 @@ export function PostDetail() {
     deletePost();
   };
 
+  const onSubmitRootComment = () => {
+    const content = rootCommentText.trim();
+    if (!content) return;
+    createComment({ content, parentId: null });
+  };
+
+  const onSubmitReply = (parentId: number) => {
+    const content = (replyTextByParentId[parentId] ?? '').trim();
+    if (!content) return;
+    createComment({ content, parentId });
+  };
+
   return (
     <div className="mx-auto w-full max-w-3xl px-4 py-6">
-      {/* Post */}
       <Card className="border bg-card/60 shadow-sm">
         <CardHeader className="space-y-2">
           <div className="flex items-start justify-between gap-3">
@@ -202,7 +350,6 @@ export function PostDetail() {
             {post.content}
           </div>
 
-          {/* Like */}
           <div className="flex items-center justify-between gap-3 pt-2">
             <div className="flex items-center gap-2 text-sm">
               {isLikeLoading && (
@@ -229,7 +376,6 @@ export function PostDetail() {
         </CardContent>
       </Card>
 
-      {/* Comments */}
       <Card className="mt-5 border bg-card/60 shadow-sm">
         <CardHeader className="space-y-1">
           <CardTitle className="text-base">댓글</CardTitle>
@@ -239,28 +385,13 @@ export function PostDetail() {
         </CardHeader>
 
         <CardContent className="space-y-4">
-          {/* Write */}
-          <div className="grid gap-2">
-            <Textarea
-              rows={3}
-              placeholder="댓글을 입력하세요"
-              value={commentText}
-              onChange={e => setCommentText(e.target.value)}
-            />
-            <div className="flex justify-end">
-              <Button
-                type="button"
-                onClick={() => createComment()}
-                disabled={
-                  isCreateCommentPending || commentText.trim().length === 0
-                }
-              >
-                {isCreateCommentPending ? '등록 중...' : '댓글 등록'}
-              </Button>
-            </div>
-          </div>
+          <WriteComment
+            value={rootCommentText}
+            onChange={setRootCommentText}
+            onSubmit={onSubmitRootComment}
+            isPending={isCreateCommentPending}
+          />
 
-          {/* List */}
           {isCommentsLoading && (
             <div className="text-sm text-muted-foreground">
               댓글 불러오는 중...
@@ -269,7 +400,6 @@ export function PostDetail() {
           {isCommentsError && (
             <div className="text-sm text-destructive">댓글 로드 오류</div>
           )}
-
           {!isCommentsLoading && !isCommentsError && (
             <div className="grid gap-3">
               {comments.length === 0 ? (
@@ -277,23 +407,18 @@ export function PostDetail() {
                   댓글이 없습니다.
                 </div>
               ) : (
-                comments.map((c: any) => (
-                  <div
+                comments.map((c: Comment) => (
+                  <SearchComments
                     key={c.id}
-                    className="rounded-lg border bg-background/50 p-3"
-                  >
-                    <div className="flex items-center justify-between gap-2">
-                      <div className="text-sm font-medium">
-                        {c.author.nickname}
-                      </div>
-                      <div className="text-xs text-muted-foreground">
-                        {c.createdAt}
-                      </div>
-                    </div>
-                    <div className="mt-1 whitespace-pre-wrap text-sm">
-                      {c.content}
-                    </div>
-                  </div>
+                    c={c}
+                    depth={0}
+                    focusCommentId={focusCommentId}
+                    setFocusCommentId={setFocusCommentId}
+                    replyTextByParentId={replyTextByParentId}
+                    setReplyTextByParentId={setReplyTextByParentId}
+                    onSubmitReply={onSubmitReply}
+                    isCreateCommentPending={isCreateCommentPending}
+                  />
                 ))
               )}
             </div>
@@ -301,7 +426,6 @@ export function PostDetail() {
         </CardContent>
       </Card>
 
-      {/* Footer nav */}
       <div className="mt-5 flex justify-end">
         <Button asChild variant="outline">
           <Link to="/posts">목록</Link>

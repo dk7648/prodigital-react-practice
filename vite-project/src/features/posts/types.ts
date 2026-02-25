@@ -58,7 +58,7 @@ export type CommentItem = {
   updatedAt: string;
 };
 
-export type CreateCommentInput = { content: string };
+export type CreateCommentInput = { content: string; parentId?: number | null };
 
 export type RefreshResponseData = {
   user: {
@@ -69,4 +69,12 @@ export type RefreshResponseData = {
   };
   token: string;
   message: string;
+};
+
+type Comment = {
+  id: number;
+  content: string;
+  createdAt: string;
+  author: { id: string; nickname: string };
+  children?: Comment[];
 };
