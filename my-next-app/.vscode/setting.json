@@ -1,0 +1,17 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "npm.packageManager": "pnpm",
+
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "typescript.preferences.importModuleSpecifier": "shortest",
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}
