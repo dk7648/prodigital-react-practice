@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { Col, ListGroup, Row } from "react-bootstrap";
 
 export default function StockApp() {
-  const [companies, setCompanies] = useState([]);
+  const [companies, setCompanies] = useState({});
   const [stocks, setStocks] = useState({});
   const [selectedCompany, setSelectedCompany] = useState(null);
   const [filteredStocks, setFilteredStocks] = useState([]);
@@ -17,7 +17,7 @@ export default function StockApp() {
     };
 
     const fetchStocks = async () => {
-      const response = await fetch("/data/stocks.json");
+      const response = await fetch("/data/stock.json");
       const data = await response.json();
       setStocks(data);
     };
@@ -27,16 +27,8 @@ export default function StockApp() {
   }, []);
 
   useEffect(() => {
-    console.log("Selected Company:", selectedCompany);
-    console.log("Stocks Data:", stocks);
-  }, [selectedCompany, stocks]);
-  useEffect(() => {
-    console.log("s:", selectedCompany ? "true" : "false");
     if (selectedCompany) {
-      console.log(selectedCompany.code);
-      console.log("ee", stocks);
       const filtered = stocks[selectedCompany.code] || [];
-      console.log(filtered);
       setFilteredStocks(filtered);
     } else {
       setFilteredStocks([]);
@@ -44,9 +36,21 @@ export default function StockApp() {
   }, [selectedCompany, stocks]);
 
   useEffect(() => {
-    console.log("Selected Company:", selectedCompany);
-    console.log("Filtered Stocks:", filteredStocks);
-  }, [selectedCompany, filteredStocks]);
+    console.log("Companies data: ", companies);
+  }, [companies]);
+
+  useEffect(() => {
+    console.log("Stocks Data: ", stocks);
+  }, [stocks]);
+
+  useEffect(() => {
+    console.log("Selected Company changed: ", selectedCompany);
+  }, [selectedCompany]);
+
+  useEffect(() => {
+    console.log("Filtered Stocks updated: ", filteredStocks);
+  }, [filteredStocks]);
+
   return (
     <Row>
       <Col xs={4}>
@@ -79,6 +83,9 @@ export default function StockApp() {
                 <th>날짜</th>
                 <th>종가</th>
                 <th>시가</th>
+                <th>고가</th>
+                <th>저가</th>
+                <th>거래대금</th>
               </tr>
             </thead>
 
@@ -87,8 +94,17 @@ export default function StockApp() {
                 <tr key={index}>
                   <td>{index + 1}</td>
                   <td>{stock.date}</td>
-                  <td>{stock.tradePrice}</td>
+                  {stock.change === "RISE" ? (
+                    <td style={{ color: "red" }}>{stock.tradePrice}</td>
+                  ) : stock.change === "FALL" ? (
+                    <td style={{ color: "blue" }}>{stock.tradePrice}</td>
+                  ) : (
+                    <td>{stock.tradePrice}</td>
+                  )}
                   <td>{stock.openingPrice}</td>
+                  <td>{stock.highPrice}</td>
+                  <td>{stock.lowPrice}</td>
+                  <td>{stock.candleAccTradePrice}</td>
                 </tr>
               ))}
             </tbody>

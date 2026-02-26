@@ -7,6 +7,8 @@ export default function Home() {
         <h1 className="text-2xl font-bold">안녕하세요</h1>
 
         <Image src="/panda.jpg" width={200} height={200} alt="panda" priority />
+        <a href="/blog-ser">블로그 서버</a>
+        <a href="/blog">블로그</a>
       </main>
     </div>
   );

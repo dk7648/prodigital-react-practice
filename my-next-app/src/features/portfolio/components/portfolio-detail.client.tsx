@@ -3,6 +3,18 @@
 
 import { useParams, usePathname } from 'next/navigation';
 
+/*
+    [parameter를 전달받는 방법]
+    src/app/portfolio/[portfolioId]/page.tsx --> /portfolio/:portfolioId
+    1. page.tsx에서 인자로 전달받기 params: Promise<{portfolioId: string}>
+    2. useParams Hook 사용하기 (Client Component에서만 가능)
+
+
+ * [Next.js의 실행흐름]
+ * 1. Server측 실행
+ *    - 전체 DOM을 만들고 실행 (React Hook 제외)
+ * 2. Client측 실행(client 컴포넌트의 React Hook만 실행)
+ */
 export default function PortfolioDetailClient({
   portfolioId,
 }: {
