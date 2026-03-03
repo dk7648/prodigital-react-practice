@@ -1,0 +1,1 @@
+ALTER TABLE "my-next-app"."post_comments" ADD COLUMN "content" text NOT NULL;

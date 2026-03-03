@@ -3,15 +3,29 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { BlogItem } from '../types/blog-type';
+import { useQuery } from '@tanstack/react-query';
+
+async function getBlogs(): Promise<BlogItem[]> {
+  console.log('getBlogs 실행됨');
+  const res = await fetch(url);
+  const data = await res.json();
+  return data.data.items;
+}
 
 const url = 'https://shinhan-pda-react-router-full-examp.vercel.app/api/posts';
-export default function BlogListClient() {
-  const [items, setItems] = useState<BlogItem[]>([]);
-  useEffect(() => {
-    fetch(url)
-      .then(res => res.json())
-      .then(data => setItems(data.data.items));
-  }, []);
+export default function BlogListClient({
+  initialData,
+}: {
+  initialData: BlogItem[];
+}) {
+  const { data: items = initialData } = useQuery({
+    queryKey: ['blogs'],
+    queryFn: getBlogs,
+    staleTime: 1000 * 60 * 5,
+  });
+
+  console.log('data:', items);
+
   return (
     <div className="mx-auto max-w-4xl p-8">
       <h1 className="mb-8 text-center text-3xl font-bold tracking-tight text-gray-900">

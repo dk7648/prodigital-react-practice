@@ -1,7 +1,11 @@
 // src/app/(main)/portfolio/[portfolioId]/page.tsx
-'use client';
-import BlogDetailClient from '@/features/blog/components/blog-detail.client';
+import BlogDetail from '@/features/blog/components/blog-detail';
 
-export default function BlogDetailPage() {
-  return <BlogDetailClient />;
+export default async function BlogDetailPage({
+  params,
+}: {
+  params: Promise<{ blogId: string }>;
+}) {
+  const { blogId } = await params;
+  return <BlogDetail blogId={Number(blogId)} />;
 }

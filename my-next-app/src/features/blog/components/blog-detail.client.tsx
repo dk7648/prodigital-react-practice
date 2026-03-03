@@ -17,9 +17,15 @@ type BlogItem = {
   commentCount: number;
 };
 const url = 'https://shinhan-pda-react-router-full-examp.vercel.app/api/posts';
-export default function BlogDetailClient() {
+export default function BlogDetailClient({
+  initialData,
+}: {
+  initialData: BlogItem;
+}) {
   const params = useParams();
-  const [items, setItems] = useState<BlogItem[]>([]);
+  const [items, setItems] = useState<BlogItem[]>(
+    initialData ? [initialData] : []
+  );
   useEffect(() => {
     fetch(url)
       .then(res => res.json())

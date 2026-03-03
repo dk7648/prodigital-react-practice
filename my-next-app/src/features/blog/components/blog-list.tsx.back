@@ -1,29 +1,17 @@
-'use client';
-
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
 import { BlogItem } from '../types/blog-type';
 
 const url = 'https://shinhan-pda-react-router-full-examp.vercel.app/api/posts';
-export default function BlogMergedList({
-  initialData: serverItems,
-}: {
-  initialData: BlogItem[];
-}) {
-  const [items, setItems] = useState<BlogItem[]>(serverItems);
-
-  useEffect(() => {
-    fetch(url)
-      .then(res => res.json())
-      .then(data => setItems(data.data.items));
-  }, []);
-
+export default async function BlogList() {
+  const response = await fetch(url);
+  const data = await response.json();
+  const items = data.data.items;
   return (
     <div className="mx-auto max-w-4xl p-8">
       <h1 className="mb-8 text-center text-3xl font-bold tracking-tight text-gray-900">
         포스트 리스트
       </h1>
-
+    
       <div className="space-y-6">
         {items.map((item: BlogItem) => (
           <Link href={`/blog-ser/${item.id}`} key={item.id}>

@@ -1,7 +1,5 @@
-'use client';
+import BlogList from '@/features/blog/components/blog-list';
 
-import BlogListClient from '@/features/blog/components/blog-list.client';
-
-export default function BlogPage() {
-  return <BlogListClient />;
+export default async function BlogPage() {
+  return <BlogList />;
 }
